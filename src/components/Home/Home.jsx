@@ -13,8 +13,7 @@ const Home = ({ handleWatchTime }) => {
   }, []);
 
   return (
-    <div>
-      <div className="movie-container row ">
+      <div className="movie-container row me-2">
         {movies.map((movie) => (
           <SingleCard
             handleWatchTime={handleWatchTime}
@@ -22,7 +21,6 @@ const Home = ({ handleWatchTime }) => {
           ></SingleCard>
         ))}
       </div>
-    </div>
   );
 };
 

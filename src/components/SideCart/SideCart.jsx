@@ -22,7 +22,7 @@ const SideCart = ({ watchTime }) => {
   };
 
   return (
-    <div>
+    <div className=" position-sticky top-0">
       <h1>My Cart</h1>
 
       <div className="mt-5 text-center">

@@ -3,7 +3,8 @@ import React from "react";
 const SingleCard = ({ movie, handleWatchTime }) => {
   //   console.log(movie);
   return (
-    <div className="movie-card card text-center w-100 m-auto col-md-6">
+    <div className="movie-card text-center col-md-6">
+      <div className="card mb-4 shadow">
       <div className="movie-poster w-25 m-auto">
         <img className="w-75" src={movie.poster} alt="" />
       </div>
@@ -19,6 +20,7 @@ const SingleCard = ({ movie, handleWatchTime }) => {
       >
         Book Now
       </button>
+      </div>
     </div>
   );
 };
